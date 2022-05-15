@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interplanetary System Interface</title>
+    <script src="./scripts/main.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="grid-content">
+      <header>
+        <!-- nav bar -->
+        <nav class="nav">
+          <div class="nav__left">
+            <p>About</p>
+            <p>Contact</p>
+          </div>
+
+          <div class="nav__right">
+            <img src="./assets/icon/profile-1.svg" alt="profile" />
+            <a href="">Profile</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section id="interface">
+          <div class="logo-img">
+            <img
+              src="./assets/logo/logo-spacex.png"
+              id="spaceLogo"
+              alt="company logo"
+            />
+          </div>
+
+          <div class="welcome-text">
+            <p>What information do you want to know?</p>
+          </div>
+
+          <div class="information-water">
+            <img src="./assets/img/square-tile.png" id="waterVisual" />
+          </div>
+
+          <div class="description-water">
+            <p id="waterRemain">Remaining Water</p>
+          </div>
+
+          <div class="drink-icon">
+            <img
+              src="./assets/icon/drink-1.svg"
+              id="drinkIcon"
+              alt="water vector"
+            />
+          </div>
+
+          <div class="information-food">
+            <img src="./assets/img/square-tile.png" />
+          </div>
+
+          <div class="description-food">
+            <p id="foodRemain">Remaining Food</p>
+          </div>
+
+          <div class="apple-icon">
+            <img
+              src="./assets/icon/apple-1.svg"
+              id="appleIcon"
+              alt="apple vector"
+            />
+          </div>
+
+          <form>
+            <div class="kilo">
+              <label>Enter Kilometers: </label>
+              <input type="text" id="kilo" />
+            </div>
+
+            <input type="button" id="converter" value="Convert to Miles" />
+          </form>
+
+          <div class="result">
+            <img
+              src="./assets/icon/rectangle-result.svg"
+              alt="result dot box"
+            />
+          </div>
+          <p id="resultNum" class="big"></p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
