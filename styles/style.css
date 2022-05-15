@@ -212,9 +212,9 @@ form {
   display: grid;
   -ms-grid-columns: (1)[12];
       grid-template-columns: repeat(12, 1);
-  -ms-grid-column: 5;
+  -ms-grid-column: 2;
   -ms-grid-column-span: 4;
-  grid-column: 5/9;
+  grid-column: 2/6;
   -ms-grid-row: 7;
   -ms-grid-row-span: 1;
   grid-row: 7/8;
@@ -226,12 +226,6 @@ form {
 }
 
 .kilo > label {
-  font-family: 'Nunito', sans-serif;
-  font-size: 24px;
-  color: #525252;
-}
-
-.miles > label {
   font-family: 'Nunito', sans-serif;
   font-size: 24px;
   color: #525252;
@@ -261,8 +255,7 @@ input[type='text']:focus {
   grid-row: 8/9;
   -ms-flex-line-pack: center;
       align-content: center;
-  width: 50%;
-  margin-left: 50px;
+  width: 40%;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -271,9 +264,9 @@ input[type='text']:focus {
   -ms-grid-column: 6;
   -ms-grid-column-span: 4;
   grid-column: 6/10;
-  -ms-grid-row: 8;
+  -ms-grid-row: 7;
   -ms-grid-row-span: 1;
-  grid-row: 8/9;
+  grid-row: 7/8;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
